@@ -1,0 +1,21 @@
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Wipro.Translation.Plugins.dll
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Wipro.Translation.Plugins.pdb
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.Plugins.dll
+c:\users\ba362062\documents\visual studio 2015\Projects\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.Plugins.pdb
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Wipro.Translation.Plugins.dll
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Wipro.Translation.Plugins.pdb
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.Plugins.dll
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.Plugins.pdb
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Newtonsoft.Json.dll
+C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Newtonsoft.Json.xml
