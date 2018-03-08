@@ -10,6 +10,7 @@ using Wipro.Translation.Plugins.Common;
 
 
 // Checking if GIT is integrated properly with the VS or not.
+// Change 2
 namespace Wipro.Translation.Plugins
 {
     public class Translation : Plugin
