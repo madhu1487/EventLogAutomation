@@ -9,6 +9,7 @@ using System.Text;
 using Wipro.Translation.Plugins.Common;
 
 
+// Checking if GIT is integrated properly with the VS or not.
 namespace Wipro.Translation.Plugins
 {
     public class Translation : Plugin
@@ -156,7 +157,7 @@ namespace Wipro.Translation.Plugins
 
                             case 2:// Post
                                 {
-
+                                    
                                     using (HttpClient aClient = new HttpClient())
                                     using (HttpRequestMessage request = new HttpRequestMessage())
                                     {
