@@ -120,8 +120,9 @@ namespace Wipro.Translation.Plugins
                 if (translatorProviderCollection != null && translatorProviderCollection.Entities.Any())
                 {
                     // This logic will require significant changes. As for some providers we need to support OAuth based authentication.
-                    translatorProviderCollection.Entities.ToList().ForEach(item =>
+                    foreach (var item in translatorProviderCollection.Entities)
                     {
+
                         // These are the parameters the Providers are expecting. Also, there will be additional parameters to improve the accuracy of the Translation.
                         string textKey = HelperFunctions.GetAttributeValue<string>("wiptrans_parametertextkey", item),
                             languageFromKey = HelperFunctions.GetAttributeValue<string>("wiptrans_parametersourcekey", item),
@@ -158,7 +159,7 @@ namespace Wipro.Translation.Plugins
 
                             case 2:// Post
                                 {
-                                    
+
                                     using (HttpClient aClient = new HttpClient())
                                     using (HttpRequestMessage request = new HttpRequestMessage())
                                     {
@@ -169,7 +170,7 @@ namespace Wipro.Translation.Plugins
                                         }
                                         else // API key is being passed as parameter.
                                         {
-                                            uri = string.Format("{0}?{1}={2}", HelperFunctions.GetAttributeValue<string>("wiptrans_url", item), apiKeyName, apiKeyValue); //"https://translation.googleapis.com/language/translate/v2?key=" + apiKey;
+                                            uri = string.Format("{0}?{1}={2}", HelperFunctions.GetAttributeValue<string>("wiptrans_url", item), apiKeyName, apiKeyValue);
                                         }
 
                                         request.Method = HttpMethod.Post;
@@ -209,7 +210,9 @@ namespace Wipro.Translation.Plugins
                             service.Create(mapping);
                         }
 
-                    });
+
+                    }
+
                 }
                 else
                 {

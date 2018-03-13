@@ -590,7 +590,7 @@ namespace Wipro.Translation.Plugins.Common
             EntityCollection collection = null;
 
             QueryExpression query = new QueryExpression("wiptrans_translationprovider");
-            query.ColumnSet = new ColumnSet(new string[] { "wiptrans_clientkeyname", "wiptrans_clientkey", "wiptrans_url" });
+            query.ColumnSet = new ColumnSet(true);
             query.Criteria.AddCondition("statecode", ConditionOperator.Equal, 0);//Active
             query.Criteria.AddCondition("wiptrans_clientkeyname", ConditionOperator.NotNull);
             query.Criteria.AddCondition("wiptrans_clientkey", ConditionOperator.NotNull);
