@@ -21,4 +21,3 @@ C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Newtonsoft.Json.
 C:\1-Project\10.Translation\Wipro.Translation\Plugins\bin\Debug\Newtonsoft.Json.xml
 C:\2-Anirban Personal Docs\GitHubProjects\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.PluginsV1.0.dll
 C:\2-Anirban Personal Docs\GitHubProjects\Wipro.Translation\Plugins\obj\Debug\Wipro.Translation.PluginsV1.0.pdb
-C:\2-Anirban Personal Docs\GitHubProjects\Wipro.Translation\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache

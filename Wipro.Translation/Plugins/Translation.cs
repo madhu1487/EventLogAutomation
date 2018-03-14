@@ -111,8 +111,9 @@ namespace Wipro.Translation.Plugins
 
             try
             {
-                string fromCode = languageCollection.Entities.Where(item => HelperFunctions.GetAttributeValue<Int32>("localeid", item).Equals(from)).Select(item => HelperFunctions.GetAttributeValue<string>("code", item)).FirstOrDefault(),
-                        toCode = languageCollection.Entities.Where(item => HelperFunctions.GetAttributeValue<Int32>("localeid", item).Equals(to)).Select(item => HelperFunctions.GetAttributeValue<string>("code", item)).FirstOrDefault(),
+                // TO extract language and removing country
+                string fromCode = languageCollection.Entities.Where(item => HelperFunctions.GetAttributeValue<Int32>("localeid", item).Equals(from)).Select(item => HelperFunctions.GetAttributeValue<string>("code", item)).FirstOrDefault().Substring(0, 2),
+                        toCode = languageCollection.Entities.Where(item => HelperFunctions.GetAttributeValue<Int32>("localeid", item).Equals(to)).Select(item => HelperFunctions.GetAttributeValue<string>("code", item)).FirstOrDefault().Substring(0, 2),
                         translatedText = null;
 
                 List<string> translatedTextList = null;
@@ -144,7 +145,7 @@ namespace Wipro.Translation.Plugins
                                     if (HelperFunctions.GetAttributeValue<bool>("wiptrans_passkeyasheader", item))
                                     {
                                         // Creating the URI for Get request
-                                        uri = string.Format("{0}?{1}={2}&{3}={4}&{5}={6}", HelperFunctions.GetAttributeValue<string>("wiptrans_url", item), textKey, text, languageFromKey, fromCode, languageToKey, toCode);
+                                        uri = string.Format("{0}?{1}={2}&{3}={4}&{5}={6}", HelperFunctions.GetAttributeValue<string>("wiptrans_url", item), textKey, text, languageFromKey, fromCode, languageToKey, toCode;
                                         using (HttpClient aClient = new HttpClient())
                                         using (HttpRequestMessage request = new HttpRequestMessage())
                                         {
